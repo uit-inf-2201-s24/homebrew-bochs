@@ -56,7 +56,9 @@ class BochsFull < Formula
     ]
     # Debug support
     if build.with?("debugger-internal") && build.with?("debugger-gdb-stub")
-      odie "Internal debugger and GDB stub are mutually exclusive!"
+      opoo "Internal debugger and GDB stub are mutually exclusive!"
+      ohai "If you're using 'brew reinstall', try using 'brew uninstall' and 'brew install' instead."
+      odie "Exiting install, please try again with one only one debug options."
     end
     if build.with?("debugger-internal")
       args << "--enable-debugger"
