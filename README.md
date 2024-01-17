@@ -3,10 +3,10 @@ This repository is a tap for [Homebrew](https://brew.sh) for [Bochs](https://boc
 
 ## How do I install Bohcs using this formula?
 To install without options use:
-`brew install victorzimmer/bochs/bochs-full`
+`brew install uit-inf-2201-s24/bochs/bochs-full`
 
 To install using options use:
-`brew install victorzimmer/bochs/bochs-full --with-debugger-gdb-stub --with-x11` of course replacing with any options use desire.
+`brew install uit-inf-2201-s24/bochs/bochs-full --with-debugger-gdb-stub --with-x11` of course replacing with any options use desire.
 
 ## What options are available for the formula?
 | Option                   | Description                                                                          |
